@@ -432,58 +432,6 @@
     "correctOptionId": "1"
   },
   {
-    "id": 22,
-    "page": 4,
-    "type": "visual",
-    "stem": "In the following question, five figures are given. Out of them, find the three figures that can be joined to form a square.",
-    "figureDescription": "Figures A to E are shown. Choose the correct combination of three figures that forms a square.",
-    "options": [
-      {
-        "id": "1",
-        "text": "ABD"
-      },
-      {
-        "id": "2",
-        "text": "ACD"
-      },
-      {
-        "id": "3",
-        "text": "BDE"
-      },
-      {
-        "id": "4",
-        "text": "CDE"
-      }
-    ],
-    "correctOptionId": "2"
-  },
-  {
-    "id": 23,
-    "page": 4,
-    "type": "visual",
-    "stem": "In the following question, five figures are given. Out of them, find the three figures that can be joined to form a square.",
-    "figureDescription": "This is another square-formation figure puzzle from the uploaded paper. Choose the correct option based on the figure set.",
-    "options": [
-      {
-        "id": "1",
-        "text": "Figure a"
-      },
-      {
-        "id": "2",
-        "text": "Figure b"
-      },
-      {
-        "id": "3",
-        "text": "Figure c"
-      },
-      {
-        "id": "4",
-        "text": "Figure d"
-      }
-    ],
-    "correctOptionId": "2"
-  },
-  {
     "id": 25,
     "page": 5,
     "type": "text",

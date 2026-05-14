@@ -1,29 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const submitButton = document.querySelector("[data-submit-quiz]");
-  if (submitButton) {
-    submitButton.addEventListener("click", (event) => {
-      const unanswered = Number(submitButton.getAttribute("data-unanswered") || "0");
-      const message =
-        unanswered > 0
-          ? `You still have ${unanswered} unanswered question(s). Submit anyway?`
-          : "Submit your paper now?";
-
-      if (!window.confirm(message)) {
-        event.preventDefault();
-      }
-    });
-  }
-
-  document.querySelectorAll("[data-confirm]").forEach((button) => {
-    button.addEventListener("click", (event) => {
-      const message = button.getAttribute("data-confirm") || "Are you sure?";
-      if (!window.confirm(message)) {
-        event.preventDefault();
-      }
-    });
-  });
-
   const body = document.body;
+
   const closeModal = (modal) => {
     if (!modal) {
       return;
@@ -42,25 +19,46 @@ document.addEventListener("DOMContentLoaded", () => {
     body.classList.add("modal-open");
   };
 
-  document.querySelectorAll("[data-modal-open]").forEach((button) => {
-    button.addEventListener("click", () => {
-      const modalId = button.getAttribute("data-modal-open");
-      openModal(document.getElementById(modalId));
-    });
-  });
+  document.addEventListener("click", (event) => {
+    const submitButton = event.target.closest("[data-submit-quiz]");
+    if (submitButton) {
+      const unanswered = Number(submitButton.getAttribute("data-unanswered") || "0");
+      const message =
+        unanswered > 0
+          ? `You still have ${unanswered} unanswered question(s). Submit anyway?`
+          : "Submit your paper now?";
 
-  document.querySelectorAll("[data-modal-close]").forEach((button) => {
-    button.addEventListener("click", () => {
-      closeModal(button.closest(".modal-backdrop"));
-    });
-  });
-
-  document.querySelectorAll(".modal-backdrop").forEach((modal) => {
-    modal.addEventListener("click", (event) => {
-      if (event.target === modal) {
-        closeModal(modal);
+      if (!window.confirm(message)) {
+        event.preventDefault();
       }
-    });
+      return;
+    }
+
+    const confirmButton = event.target.closest("[data-confirm]");
+    if (confirmButton) {
+      const message = confirmButton.getAttribute("data-confirm") || "Are you sure?";
+      if (!window.confirm(message)) {
+        event.preventDefault();
+      }
+      return;
+    }
+
+    const openButton = event.target.closest("[data-modal-open]");
+    if (openButton) {
+      const modalId = openButton.getAttribute("data-modal-open");
+      openModal(document.getElementById(modalId));
+      return;
+    }
+
+    const closeButton = event.target.closest("[data-modal-close]");
+    if (closeButton) {
+      closeModal(closeButton.closest(".modal-backdrop"));
+      return;
+    }
+
+    if (event.target.classList.contains("modal-backdrop")) {
+      closeModal(event.target);
+    }
   });
 
   document.addEventListener("keydown", (event) => {

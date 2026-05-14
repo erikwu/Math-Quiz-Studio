@@ -437,35 +437,6 @@ textarea:focus {
   flex-wrap: wrap;
 }
 
-.preview-options-list {
-  display: grid;
-  gap: 12px;
-}
-
-.preview-option {
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  background: #fff;
-  padding: 14px 16px;
-}
-
-.preview-option.selected {
-  border-color: #efb27d;
-  background: var(--current);
-}
-
-.preview-option.correct {
-  border-color: #75bf98;
-  background: var(--answered);
-}
-
-.preview-option-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 10px;
-}
-
 .option-id {
   font-weight: 800;
   color: var(--brand);
@@ -630,44 +601,6 @@ textarea:focus {
   gap: 12px;
 }
 
-.modal-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 40;
-  display: grid;
-  place-items: center;
-  padding: 24px;
-  background: rgba(31, 41, 55, 0.48);
-}
-
-.modal-card {
-  width: min(920px, 100%);
-  max-height: min(86vh, 920px);
-  overflow: auto;
-  padding: 22px;
-}
-
-.modal-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 16px;
-  margin-bottom: 18px;
-}
-
-.modal-title {
-  margin: 10px 0 8px;
-  font-size: 1.5rem;
-}
-
-.modal-body {
-  padding-bottom: 4px;
-}
-
-body.modal-open {
-  overflow: hidden;
-}
-
 .import-card {
   background:
     linear-gradient(180deg, rgba(30, 111, 92, 0.03), transparent 120px),
@@ -707,13 +640,5 @@ body.modal-open {
 
   .record-card {
     grid-template-columns: 1fr;
-  }
-
-  .modal-backdrop {
-    padding: 12px;
-  }
-
-  .modal-head {
-    flex-direction: column;
   }
 }

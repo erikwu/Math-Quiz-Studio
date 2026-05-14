@@ -215,7 +215,10 @@ function sendFile(response, filePath) {
       return;
     }
 
-    response.writeHead(200, { "Content-Type": contentType });
+    response.writeHead(200, {
+      "Content-Type": contentType,
+      "Cache-Control": extension === ".css" || extension === ".js" ? "no-store" : "public, max-age=3600"
+    });
     response.end(content);
   });
 }
@@ -896,6 +899,12 @@ function renderNav(session, current) {
   </header>`;
 }
 
+function assetUrl(filename) {
+  const filePath = path.join(PUBLIC_DIR, filename);
+  const version = fs.existsSync(filePath) ? Math.floor(fs.statSync(filePath).mtimeMs).toString(36) : "dev";
+  return `/${filename}?v=${version}`;
+}
+
 function renderStandalonePage(title, content) {
   return `<!DOCTYPE html>
 <html lang="en">
@@ -903,7 +912,7 @@ function renderStandalonePage(title, content) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="${assetUrl("styles.css")}">
 </head>
 <body>
   <div class="shell">
@@ -920,7 +929,7 @@ function renderPage(title, session, body, current) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="${assetUrl("styles.css")}">
 </head>
 <body>
   <div class="shell">
@@ -930,7 +939,7 @@ function renderPage(title, session, body, current) {
       ${body}
     </div>
   </div>
-  <script src="/app.js"></script>
+  <script src="${assetUrl("app.js")}"></script>
 </body>
 </html>`;
 }
@@ -1017,62 +1026,6 @@ function renderOption(option, question, selectedId) {
       <span>${escapeHtml(cleanText(option.text))}</span>
     </div>
   </label>`;
-}
-
-function renderPreviewOption(option, question, selectedOptionId, correctOptionId) {
-  const visualSet = getVisualSet(question.id);
-  const optionSvg = visualSet && visualSet.options ? visualSet.options[option.id] : "";
-  const classes = ["preview-option"];
-
-  if (selectedOptionId === option.id) {
-    classes.push("selected");
-  }
-
-  if (correctOptionId === option.id) {
-    classes.push("correct");
-  }
-
-  return `<div class="${classes.join(" ")}">
-    ${optionSvg ? `<div class="option-figure">${optionSvg}</div>` : ""}
-    <div class="option-copy">
-      <span class="option-id">${escapeHtml(option.id)}.</span>
-      <span>${escapeHtml(cleanText(option.text))}</span>
-    </div>
-    <div class="preview-option-tags">
-      ${selectedOptionId === option.id ? `<span class="pill">Your answer</span>` : ""}
-      ${correctOptionId === option.id ? `<span class="pill correct">Correct</span>` : ""}
-    </div>
-  </div>`;
-}
-
-function renderQuestionPreviewModal(attempt, item, question) {
-  const modalId = `question-preview-${attempt.id}-${item.questionId}`;
-  const optionsHtml = question.options
-    .map((option) => renderPreviewOption(option, question, item.selectedOptionId, item.correctOptionId))
-    .join("");
-
-  return `<div class="modal-backdrop" id="${escapeHtml(modalId)}" hidden>
-    <div class="modal-card card" role="dialog" aria-modal="true" aria-labelledby="${escapeHtml(modalId)}-title">
-      <div class="modal-head">
-        <div>
-          <span class="eyebrow">Original Question Preview</span>
-          <h2 id="${escapeHtml(modalId)}-title" class="modal-title">Source Question ${question.id}</h2>
-          <div class="question-meta">Page ${question.page} &middot; Type: ${escapeHtml(question.type)}</div>
-        </div>
-        <button class="btn btn-secondary btn-sm" type="button" data-modal-close>Close</button>
-      </div>
-      <div class="modal-body">
-        <div class="question-box">
-          <div class="question-text">${nl2br(question.stem)}</div>
-          ${renderQuestionFigure(question)}
-        </div>
-        <div class="options-box" style="margin-top: 18px;">
-          <h3 style="margin-top: 0;">Options</h3>
-          <div class="preview-options-list">${optionsHtml}</div>
-        </div>
-      </div>
-    </div>
-  </div>`;
 }
 
 function renderQuizPage(session, index) {
@@ -1191,16 +1144,11 @@ function renderResultPage(session, attempt) {
   const reviewItems = attempt.review
     .map((item) => {
       const question = findQuestionById(item.questionId);
-      if (!question) {
-        return "";
-      }
-
       const stateClass = item.isCorrect ? "correct" : item.selectedOptionId ? "wrong" : "unanswered";
       const selectedText = item.selectedOptionId
         ? question.options.find((option) => option.id === item.selectedOptionId)?.text || item.selectedOptionId
         : "No answer";
       const correctText = question.options.find((option) => option.id === item.correctOptionId)?.text || item.correctOptionId;
-      const modalId = `question-preview-${attempt.id}-${item.questionId}`;
       const adminDeleteAction = session.user.role === "admin"
         ? `<form method="post" action="/questions/delete">
             <input type="hidden" name="questionId" value="${question.id}">
@@ -1218,11 +1166,7 @@ function renderResultPage(session, attempt) {
           ${renderQuestionFigure(question)}
           <div class="small"><strong>Your answer:</strong> ${escapeHtml(cleanText(selectedText))}</div>
           <div class="small"><strong>Correct answer:</strong> ${escapeHtml(cleanText(correctText))}</div>
-          <div class="btn-row" style="margin-top: 12px;">
-            <button class="btn btn-secondary btn-sm" type="button" data-modal-open="${escapeHtml(modalId)}">Preview Original Question</button>
-          </div>
           ${adminDeleteAction}
-          ${renderQuestionPreviewModal(attempt, item, question)}
         </div>`;
     })
     .join("");
