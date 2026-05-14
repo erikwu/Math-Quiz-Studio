@@ -1,0 +1,34 @@
+[
+  {
+    "id": "admin-001",
+    "username": "admin",
+    "password": "admin1234",
+    "displayName": "Administrator",
+    "role": "admin",
+    "createdAt": "2026-05-13T22:00:00.000Z"
+  },
+  {
+    "id": "student-001",
+    "username": "student",
+    "password": "math1234",
+    "displayName": "Student",
+    "role": "student",
+    "createdAt": "2026-05-13T22:00:00.000Z"
+  },
+  {
+    "id": "user-ce0d10d208",
+    "username": "wuqitong",
+    "password": "password123",
+    "displayName": "Tony",
+    "role": "student",
+    "createdAt": "2026-05-13T15:40:56.202Z"
+  },
+  {
+    "id": "user-e8defb36c5",
+    "username": "wuxinyi",
+    "password": "password123",
+    "displayName": "Ivy",
+    "role": "student",
+    "createdAt": "2026-05-13T15:43:17.687Z"
+  }
+]

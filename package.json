@@ -1,0 +1,13 @@
+{
+  "name": "local-math-quiz-app",
+  "version": "1.0.0",
+  "description": "Local Node.js web application for English math multiple-choice practice.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "tesseract.js": "^7.0.0"
+  }
+}

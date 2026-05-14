@@ -1,0 +1,7 @@
+node_modules/
+
+data/question-media/
+data/server-stdout.log
+data/server-stderr.log
+
+eng.traineddata

@@ -1,0 +1,1363 @@
+[
+  {
+    "id": 1,
+    "page": 1,
+    "type": "text",
+    "stem": "What is the difference in value between eight 50¢ coins and nine 20¢ coins?",
+    "options": [
+      {
+        "id": "1",
+        "text": "$1.80"
+      },
+      {
+        "id": "2",
+        "text": "$2.20"
+      },
+      {
+        "id": "3",
+        "text": "$4.00"
+      },
+      {
+        "id": "4",
+        "text": "$5.80"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 2,
+    "page": 1,
+    "type": "text",
+    "stem": "Sue has 2320 stickers. She has 725 stickers more than Annie. How many stickers does Annie have?",
+    "options": [
+      {
+        "id": "1",
+        "text": "1595"
+      },
+      {
+        "id": "2",
+        "text": "1605"
+      },
+      {
+        "id": "3",
+        "text": "2405"
+      },
+      {
+        "id": "4",
+        "text": "3045"
+      }
+    ],
+    "correctOptionId": "1"
+  },
+  {
+    "id": 3,
+    "page": 1,
+    "type": "text",
+    "stem": "When I divide a number correctly by 7, I obtain a quotient and a remainder. Which of the following numbers cannot be the remainder when I divide the number correctly by 7?",
+    "options": [
+      {
+        "id": "1",
+        "text": "1"
+      },
+      {
+        "id": "2",
+        "text": "5"
+      },
+      {
+        "id": "3",
+        "text": "6"
+      },
+      {
+        "id": "4",
+        "text": "9"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 5,
+    "page": 1,
+    "type": "visual",
+    "stem": "Choose the correct mirror image from the alternatives (a), (b), (c) and (d), when the mirror is placed along the line AB.",
+    "figureDescription": "Question figure: a triangle attached to a short horizontal bar, like a simple flag or funnel shape. Choose the mirrored answer figure.",
+    "options": [
+      {
+        "id": "1",
+        "text": "Figure a"
+      },
+      {
+        "id": "2",
+        "text": "Figure b"
+      },
+      {
+        "id": "3",
+        "text": "Figure c"
+      },
+      {
+        "id": "4",
+        "text": "Figure d"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 6,
+    "page": 1,
+    "type": "visual",
+    "stem": "Choose the correct water image of the given word from the four alternatives (a), (b), (c) and (d).",
+    "figureDescription": "Given word: FRUIT. Choose its water image.",
+    "options": [
+      {
+        "id": "1",
+        "text": "Figure a"
+      },
+      {
+        "id": "2",
+        "text": "Figure b"
+      },
+      {
+        "id": "3",
+        "text": "Figure c"
+      },
+      {
+        "id": "4",
+        "text": "Figure d"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 7,
+    "page": 2,
+    "type": "visual",
+    "stem": "Choose the answer figure that resembles the figure obtained by folding the transparent sheet along the dotted line.",
+    "figureDescription": "The transparent sheet shows circles arranged symmetrically around a vertical dotted folding line. Choose the folded result.",
+    "options": [
+      {
+        "id": "1",
+        "text": "Figure a"
+      },
+      {
+        "id": "2",
+        "text": "Figure b"
+      },
+      {
+        "id": "3",
+        "text": "Figure c"
+      },
+      {
+        "id": "4",
+        "text": "Figure d"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 8,
+    "page": 2,
+    "type": "visual",
+    "stem": "Choose the answer figure that resembles the figure obtained by folding the transparent sheet along the dotted line.",
+    "figureDescription": "The transparent sheet shows chevron symbols and dots on both sides of a vertical dotted line. Choose the correct folded result.",
+    "options": [
+      {
+        "id": "1",
+        "text": "Figure a"
+      },
+      {
+        "id": "2",
+        "text": "Figure b"
+      },
+      {
+        "id": "3",
+        "text": "Figure c"
+      },
+      {
+        "id": "4",
+        "text": "Figure d"
+      }
+    ],
+    "correctOptionId": "1"
+  },
+  {
+    "id": 9,
+    "page": 2,
+    "type": "text",
+    "stem": "Sarah walked 2 rounds along the edge of a rectangular field that measures 100 m by 55 m. How far did he walk?",
+    "options": [
+      {
+        "id": "1",
+        "text": "155 m"
+      },
+      {
+        "id": "2",
+        "text": "310 m"
+      },
+      {
+        "id": "3",
+        "text": "465 m"
+      },
+      {
+        "id": "4",
+        "text": "620 m"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 10,
+    "page": 2,
+    "type": "text",
+    "stem": "There are 240 strawberries at a fruit stall. There are four times as many pears as strawberries. How many pears and strawberries are there at the fruit stall?",
+    "options": [
+      {
+        "id": "1",
+        "text": "60"
+      },
+      {
+        "id": "2",
+        "text": "300"
+      },
+      {
+        "id": "3",
+        "text": "960"
+      },
+      {
+        "id": "4",
+        "text": "1200"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 12,
+    "page": 3,
+    "type": "text",
+    "stem": "Siti took 75 minutes to bake some cookies. She finished baking them at 1.10 p.m. What time did she start to bake the cookies?",
+    "options": [
+      {
+        "id": "1",
+        "text": "11:50 a.m."
+      },
+      {
+        "id": "2",
+        "text": "11:55 a.m."
+      },
+      {
+        "id": "3",
+        "text": "12:35 p.m."
+      },
+      {
+        "id": "4",
+        "text": "2:35 p.m."
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 13,
+    "page": 3,
+    "type": "text",
+    "stem": "Look at the diagram carefully. What is the total mass of the grapes and bananas?",
+    "figureDescription": "The diagram shows grapes on one weighing scale and bananas on another scale.",
+    "options": [
+      {
+        "id": "1",
+        "text": "120 g"
+      },
+      {
+        "id": "2",
+        "text": "230 g"
+      },
+      {
+        "id": "3",
+        "text": "580 g"
+      },
+      {
+        "id": "4",
+        "text": "820 g"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 14,
+    "page": 3,
+    "type": "text",
+    "stem": "Mrs Koh bought an equal number of muffins and donuts at the prices shown below. Muffins cost $2 each and donuts cost $1 each. She spent $18 altogether. How many muffins did she buy?",
+    "options": [
+      {
+        "id": "1",
+        "text": "6"
+      },
+      {
+        "id": "2",
+        "text": "9"
+      },
+      {
+        "id": "3",
+        "text": "12"
+      },
+      {
+        "id": "4",
+        "text": "18"
+      }
+    ],
+    "correctOptionId": "1"
+  },
+  {
+    "id": 15,
+    "page": 3,
+    "type": "visual",
+    "stem": "Find a figure from the answer figures that can be formed by joining the pieces given in the question figure.",
+    "figureDescription": "The question figure contains three triangular pieces. Choose the answer figure that can be formed by joining all pieces.",
+    "options": [
+      {
+        "id": "1",
+        "text": "Figure a"
+      },
+      {
+        "id": "2",
+        "text": "Figure b"
+      },
+      {
+        "id": "3",
+        "text": "Figure c"
+      },
+      {
+        "id": "4",
+        "text": "Figure d"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 17,
+    "page": 4,
+    "type": "text",
+    "stem": "For every 5 cups of ice-cream Rane paid for, she got 1 cup of ice-cream free. Rane paid for 30 cups of ice-cream. How many cups of ice-cream did she get in total?",
+    "options": [
+      {
+        "id": "1",
+        "text": "14"
+      },
+      {
+        "id": "2",
+        "text": "28"
+      },
+      {
+        "id": "3",
+        "text": "36"
+      },
+      {
+        "id": "4",
+        "text": "42"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 18,
+    "page": 4,
+    "type": "visual",
+    "stem": "In the following question, find the figure from the given answer figures that can form the question figure.",
+    "figureDescription": "The question figure combines a circle, a vertical line and a small cross at the top. Choose the set of parts that can form it.",
+    "options": [
+      {
+        "id": "1",
+        "text": "Figure a"
+      },
+      {
+        "id": "2",
+        "text": "Figure b"
+      },
+      {
+        "id": "3",
+        "text": "Figure c"
+      },
+      {
+        "id": "4",
+        "text": "Figure d"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 20,
+    "page": 4,
+    "type": "text",
+    "stem": "Salim earns $50 a day. He works 7 days a week. He spends $12 and saves the rest each day. How much does he save in 1 week?",
+    "options": [
+      {
+        "id": "1",
+        "text": "$38"
+      },
+      {
+        "id": "2",
+        "text": "$84"
+      },
+      {
+        "id": "3",
+        "text": "$266"
+      },
+      {
+        "id": "4",
+        "text": "$350"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 21,
+    "page": 4,
+    "type": "text",
+    "stem": "Anna wants to give 27 stickers to each of her 8 friends. She needs 18 more stickers. How many stickers does she have?",
+    "options": [
+      {
+        "id": "1",
+        "text": "198"
+      },
+      {
+        "id": "2",
+        "text": "202"
+      },
+      {
+        "id": "3",
+        "text": "216"
+      },
+      {
+        "id": "4",
+        "text": "234"
+      }
+    ],
+    "correctOptionId": "1"
+  },
+  {
+    "id": 22,
+    "page": 4,
+    "type": "visual",
+    "stem": "In the following question, five figures are given. Out of them, find the three figures that can be joined to form a square.",
+    "figureDescription": "Figures A to E are shown. Choose the correct combination of three figures that forms a square.",
+    "options": [
+      {
+        "id": "1",
+        "text": "ABD"
+      },
+      {
+        "id": "2",
+        "text": "ACD"
+      },
+      {
+        "id": "3",
+        "text": "BDE"
+      },
+      {
+        "id": "4",
+        "text": "CDE"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 23,
+    "page": 4,
+    "type": "visual",
+    "stem": "In the following question, five figures are given. Out of them, find the three figures that can be joined to form a square.",
+    "figureDescription": "This is another square-formation figure puzzle from the uploaded paper. Choose the correct option based on the figure set.",
+    "options": [
+      {
+        "id": "1",
+        "text": "Figure a"
+      },
+      {
+        "id": "2",
+        "text": "Figure b"
+      },
+      {
+        "id": "3",
+        "text": "Figure c"
+      },
+      {
+        "id": "4",
+        "text": "Figure d"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 25,
+    "page": 5,
+    "type": "text",
+    "stem": "Malan had 24 marbles. Timothy bought three times as many marbles as Malan. How many marbles did they have altogether?",
+    "options": [
+      {
+        "id": "1",
+        "text": "8"
+      },
+      {
+        "id": "2",
+        "text": "27"
+      },
+      {
+        "id": "3",
+        "text": "72"
+      },
+      {
+        "id": "4",
+        "text": "96"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 26,
+    "page": 5,
+    "type": "text",
+    "stem": "At a party, Larry ate 1/5 of a pizza. Mike ate 3/10 of the same pizza. What fraction of the pizza did they eat altogether?",
+    "options": [
+      {
+        "id": "1",
+        "text": "1/2"
+      },
+      {
+        "id": "2",
+        "text": "4/10"
+      },
+      {
+        "id": "3",
+        "text": "3/4"
+      },
+      {
+        "id": "4",
+        "text": "4/15"
+      }
+    ],
+    "correctOptionId": "1"
+  },
+  {
+    "id": 27,
+    "page": 5,
+    "type": "text",
+    "stem": "Jamie made a 9-cm square card for her mother on Mother's Day. What was the area of the card?",
+    "options": [
+      {
+        "id": "1",
+        "text": "9 cm²"
+      },
+      {
+        "id": "2",
+        "text": "18 cm²"
+      },
+      {
+        "id": "3",
+        "text": "36 cm²"
+      },
+      {
+        "id": "4",
+        "text": "81 cm²"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 28,
+    "page": 5,
+    "type": "visual",
+    "stem": "In each of the following question(s), find the answer figure in which question figure is embedded.",
+    "figureDescription": "Question figure: an angular outline inside a square frame, with a zig-zag indentation on one side. Choose the answer figure where it is embedded.",
+    "options": [
+      {
+        "id": "1",
+        "text": "Figure a"
+      },
+      {
+        "id": "2",
+        "text": "Figure b"
+      },
+      {
+        "id": "3",
+        "text": "Figure c"
+      },
+      {
+        "id": "4",
+        "text": "Figure d"
+      }
+    ],
+    "correctOptionId": "1"
+  },
+  {
+    "id": 30,
+    "page": 6,
+    "type": "visual",
+    "stem": "In the following question, a question figure and four answer figures are given. Choose that answer figure which is exactly the same as the question figure.",
+    "figureDescription": "Question figure: a rectangular 3D box-like shape with a small projecting arrow/mark at the front-right side. Choose the exactly same figure.",
+    "options": [
+      {
+        "id": "1",
+        "text": "Figure a"
+      },
+      {
+        "id": "2",
+        "text": "Figure b"
+      },
+      {
+        "id": "3",
+        "text": "Figure c"
+      },
+      {
+        "id": "4",
+        "text": "Figure d"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 31,
+    "page": 101,
+    "type": "text",
+    "stem": "A farmer had an equal number of pears and apples at first. After throwing away 52 rotten pears and 100 rotten apples, he had three times as many pears as apples. How many apples was he left with?",
+    "options": [
+      {
+        "id": "1",
+        "text": "16"
+      },
+      {
+        "id": "2",
+        "text": "24"
+      },
+      {
+        "id": "3",
+        "text": "48"
+      },
+      {
+        "id": "4",
+        "text": "72"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 32,
+    "page": 101,
+    "type": "text",
+    "stem": "Mrs. Tan packed 171 muffins into some boxes. Each box contained 9 muffins. She sold each box of muffins at $6. How much would she collect if she sold all the muffins?",
+    "options": [
+      {
+        "id": "1",
+        "text": "$64"
+      },
+      {
+        "id": "2",
+        "text": "$114"
+      },
+      {
+        "id": "3",
+        "text": "$126"
+      },
+      {
+        "id": "4",
+        "text": "$654"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 33,
+    "page": 101,
+    "type": "text",
+    "stem": "1 correction tape costs as much as 2 pencils. Tom paid $12 for 2 correction tapes and 2 pencils. Find the cost of 1 correction tape.",
+    "options": [
+      {
+        "id": "1",
+        "text": "$6"
+      },
+      {
+        "id": "2",
+        "text": "$2"
+      },
+      {
+        "id": "3",
+        "text": "$3"
+      },
+      {
+        "id": "4",
+        "text": "$4"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 34,
+    "page": 103,
+    "type": "text",
+    "stem": "Jin Rong had $200. He spent $84 on a watch and $27 on a wallet. How much money did he have left? Round off your answer to the nearest ten.",
+    "options": [
+      {
+        "id": "1",
+        "text": "$80"
+      },
+      {
+        "id": "2",
+        "text": "$90"
+      },
+      {
+        "id": "3",
+        "text": "$100"
+      },
+      {
+        "id": "4",
+        "text": "$110"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 35,
+    "page": 103,
+    "type": "text",
+    "stem": "Mr. Bethel completed the first lap of an F1 race in 2 min 34 s. Mr. Kazuya took 20 s longer than Mr. Bethel. How much time did they take to complete one lap altogether? Express the time in seconds.",
+    "options": [
+      {
+        "id": "1",
+        "text": "174 s"
+      },
+      {
+        "id": "2",
+        "text": "254 s"
+      },
+      {
+        "id": "3",
+        "text": "328 s"
+      },
+      {
+        "id": "4",
+        "text": "488 s"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 36,
+    "page": 104,
+    "type": "text",
+    "stem": "Mr. and Mrs. Tan watched a movie at 11:45. The duration of the movie is 1 h 35 min. What time did the movie end?",
+    "options": [
+      {
+        "id": "1",
+        "text": "01:20"
+      },
+      {
+        "id": "2",
+        "text": "10:10"
+      },
+      {
+        "id": "3",
+        "text": "13:20"
+      },
+      {
+        "id": "4",
+        "text": "22:10"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 37,
+    "page": 104,
+    "type": "text",
+    "stem": "What is the number when 275.249 is rounded off to the nearest 2 decimal places?",
+    "options": [
+      {
+        "id": "1",
+        "text": "275.00"
+      },
+      {
+        "id": "2",
+        "text": "275.24"
+      },
+      {
+        "id": "3",
+        "text": "275.25"
+      },
+      {
+        "id": "4",
+        "text": "275.30"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 38,
+    "page": 107,
+    "type": "text",
+    "stem": "A group of students went to the Singapore Maritime Museum. 3/5 of them were boys. There were 45 boys. How many students were girls?",
+    "options": [
+      {
+        "id": "1",
+        "text": "15"
+      },
+      {
+        "id": "2",
+        "text": "18"
+      },
+      {
+        "id": "3",
+        "text": "30"
+      },
+      {
+        "id": "4",
+        "text": "75"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 39,
+    "page": 107,
+    "type": "text",
+    "stem": "Find the difference between 20 hundredths and 15 tenths.",
+    "options": [
+      {
+        "id": "1",
+        "text": "0.05"
+      },
+      {
+        "id": "2",
+        "text": "1.30"
+      },
+      {
+        "id": "3",
+        "text": "1.48"
+      },
+      {
+        "id": "4",
+        "text": "5.00"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 40,
+    "page": 108,
+    "type": "text",
+    "stem": "A greengrocer had 30 kg of tomatoes. He threw away 0.85 kg of rotten ones and sold 24.2 kg. What was the mass of tomatoes left?",
+    "options": [
+      {
+        "id": "1",
+        "text": "4.95 kg"
+      },
+      {
+        "id": "2",
+        "text": "5.80 kg"
+      },
+      {
+        "id": "3",
+        "text": "23.35 kg"
+      },
+      {
+        "id": "4",
+        "text": "29.15 kg"
+      }
+    ],
+    "correctOptionId": "1"
+  },
+  {
+    "id": 41,
+    "page": 108,
+    "type": "text",
+    "stem": "In which of the following numbers is the digit 8 in the thousands place?",
+    "options": [
+      {
+        "id": "1",
+        "text": "5780"
+      },
+      {
+        "id": "2",
+        "text": "5870"
+      },
+      {
+        "id": "3",
+        "text": "7850"
+      },
+      {
+        "id": "4",
+        "text": "8507"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 42,
+    "page": 108,
+    "type": "text",
+    "stem": "Which of the following shows the numbers arranged from smallest to greatest?",
+    "options": [
+      {
+        "id": "1",
+        "text": "9793, 9379, 9937"
+      },
+      {
+        "id": "2",
+        "text": "9397, 9973, 9739"
+      },
+      {
+        "id": "3",
+        "text": "9397, 9739, 9973"
+      },
+      {
+        "id": "4",
+        "text": "9973, 9739, 9397"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 43,
+    "page": 108,
+    "type": "text",
+    "stem": "Complete the following number pattern. 17, 25, 33, __, __, 57.",
+    "options": [
+      {
+        "id": "1",
+        "text": "34, 35"
+      },
+      {
+        "id": "2",
+        "text": "34, 56"
+      },
+      {
+        "id": "3",
+        "text": "41, 49"
+      },
+      {
+        "id": "4",
+        "text": "55, 56"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 44,
+    "page": 109,
+    "type": "text",
+    "stem": "Twelve poles are placed in a straight row at equal distance apart. The distance between the first and fourth pole is 1.2 m. What is the distance between the first and last pole?",
+    "options": [
+      {
+        "id": "1",
+        "text": "3.3 m"
+      },
+      {
+        "id": "2",
+        "text": "3.6 m"
+      },
+      {
+        "id": "3",
+        "text": "4.4 m"
+      },
+      {
+        "id": "4",
+        "text": "4.8 m"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 45,
+    "page": 111,
+    "type": "text",
+    "stem": "The total length of 10 different poles is 31 2/3 m. The length of each of the first 8 poles is 17/6 m. The length of the 10th pole is half of the length of the 9th pole. What is the length of the 10th pole?",
+    "options": [
+      {
+        "id": "1",
+        "text": "1 m"
+      },
+      {
+        "id": "2",
+        "text": "5 m"
+      },
+      {
+        "id": "3",
+        "text": "3 m"
+      },
+      {
+        "id": "4",
+        "text": "6 m"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 46,
+    "page": 111,
+    "type": "text",
+    "stem": "Which of the following numbers, when rounded off to the nearest ten, becomes 73500?",
+    "options": [
+      {
+        "id": "1",
+        "text": "73451"
+      },
+      {
+        "id": "2",
+        "text": "73499"
+      },
+      {
+        "id": "3",
+        "text": "73509"
+      },
+      {
+        "id": "4",
+        "text": "73551"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 47,
+    "page": 111,
+    "type": "text",
+    "stem": "In which of the following numbers does the digit 6 stand for 6 tenths?",
+    "options": [
+      {
+        "id": "1",
+        "text": "36.27"
+      },
+      {
+        "id": "2",
+        "text": "43.62"
+      },
+      {
+        "id": "3",
+        "text": "54.26"
+      },
+      {
+        "id": "4",
+        "text": "61.32"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 48,
+    "page": 112,
+    "type": "text",
+    "stem": "Yvette bought 2 files at $3.95 each and gave the cashier a $10 note. How much change would she get back?",
+    "options": [
+      {
+        "id": "1",
+        "text": "$2.10"
+      },
+      {
+        "id": "2",
+        "text": "$2.95"
+      },
+      {
+        "id": "3",
+        "text": "$6.05"
+      },
+      {
+        "id": "4",
+        "text": "$7.90"
+      }
+    ],
+    "correctOptionId": "1"
+  },
+  {
+    "id": 49,
+    "page": 112,
+    "type": "text",
+    "stem": "The table below shows the entrance fee to Adventure Cove. Child: weekday $17.50, weekend $20. Adult: weekday $28, weekend $35. Package deal for 2 adults and 2 children: $100. Mr. Ong and Mrs. Ong took their 2 children to Adventure Cove on Saturday. How much would the family save if they purchased the package deal?",
+    "options": [
+      {
+        "id": "1",
+        "text": "$9"
+      },
+      {
+        "id": "2",
+        "text": "$10"
+      },
+      {
+        "id": "3",
+        "text": "$100"
+      },
+      {
+        "id": "4",
+        "text": "$110"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 50,
+    "page": 112,
+    "type": "text",
+    "stem": "Xuan took 1 h 55 min to travel from her house to the museum. She reached the museum at 10:50 a.m. What time did she leave her house?",
+    "options": [
+      {
+        "id": "1",
+        "text": "8:55 a.m."
+      },
+      {
+        "id": "2",
+        "text": "9:55 a.m."
+      },
+      {
+        "id": "3",
+        "text": "12:45 p.m."
+      },
+      {
+        "id": "4",
+        "text": "8:55 p.m."
+      }
+    ],
+    "correctOptionId": "1"
+  },
+  {
+    "id": 51,
+    "page": 113,
+    "type": "text",
+    "stem": "What is the sum of the 2nd multiple of 8 and the 4th multiple of 10?",
+    "options": [
+      {
+        "id": "1",
+        "text": "16"
+      },
+      {
+        "id": "2",
+        "text": "24"
+      },
+      {
+        "id": "3",
+        "text": "40"
+      },
+      {
+        "id": "4",
+        "text": "56"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 52,
+    "page": 113,
+    "type": "text",
+    "stem": "In 54890, what is the sum of the value of the digits 4 and 9?",
+    "options": [
+      {
+        "id": "1",
+        "text": "13"
+      },
+      {
+        "id": "2",
+        "text": "130"
+      },
+      {
+        "id": "3",
+        "text": "4090"
+      },
+      {
+        "id": "4",
+        "text": "4900"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 53,
+    "page": 113,
+    "type": "text",
+    "stem": "Three number triangles follow the same rule. In the first triangle, 2 and 3 give 6. In the second triangle, 5 and 2 give 10. Using the same rule, one triangle gives A from 7 and 8, and another gives 30 from 5 and B. What are the values of A and B?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A = 20, B = 2"
+      },
+      {
+        "id": "2",
+        "text": "A = 20, B = 6"
+      },
+      {
+        "id": "3",
+        "text": "A = 56, B = 2"
+      },
+      {
+        "id": "4",
+        "text": "A = 56, B = 6"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 54,
+    "page": 113,
+    "type": "text",
+    "stem": "Sharon bought 1 bag and 6 blouses. The bag cost 3 times as much as a blouse. She paid $252 in total. How much did the bag cost?",
+    "options": [
+      {
+        "id": "1",
+        "text": "$28"
+      },
+      {
+        "id": "2",
+        "text": "$36"
+      },
+      {
+        "id": "3",
+        "text": "$84"
+      },
+      {
+        "id": "4",
+        "text": "$189"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 55,
+    "page": 114,
+    "type": "text",
+    "stem": "Find the sum of 9 3/100 and 5 1/100.",
+    "options": [
+      {
+        "id": "1",
+        "text": "14.04"
+      },
+      {
+        "id": "2",
+        "text": "14.13"
+      },
+      {
+        "id": "3",
+        "text": "14.31"
+      },
+      {
+        "id": "4",
+        "text": "14.40"
+      }
+    ],
+    "correctOptionId": "1"
+  },
+  {
+    "id": 56,
+    "page": 114,
+    "type": "text",
+    "stem": "Mrs. Peak bought 2 Mini Nutella Sandwiches and a Mini Fruit Salad. The menu shows Mini Nutella Sandwich at $3.45 and Mini Fruit Salad at $4.50. How much did she pay altogether?",
+    "options": [
+      {
+        "id": "1",
+        "text": "$7.95"
+      },
+      {
+        "id": "2",
+        "text": "$11.40"
+      },
+      {
+        "id": "3",
+        "text": "$12.45"
+      },
+      {
+        "id": "4",
+        "text": "$15.90"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 57,
+    "page": 115,
+    "type": "text",
+    "stem": "Round off 32.45 to the nearest whole number.",
+    "options": [
+      {
+        "id": "1",
+        "text": "30"
+      },
+      {
+        "id": "2",
+        "text": "32"
+      },
+      {
+        "id": "3",
+        "text": "33"
+      },
+      {
+        "id": "4",
+        "text": "35"
+      }
+    ],
+    "correctOptionId": "2"
+  },
+  {
+    "id": 58,
+    "page": 116,
+    "type": "text",
+    "stem": "Tank A contains 24.99 L of water while Tank B contains 7 times as much water as Tank A. Find the total volume of water in both tanks.",
+    "options": [
+      {
+        "id": "1",
+        "text": "3.57 L"
+      },
+      {
+        "id": "2",
+        "text": "28.56 L"
+      },
+      {
+        "id": "3",
+        "text": "174.93 L"
+      },
+      {
+        "id": "4",
+        "text": "199.92 L"
+      }
+    ],
+    "correctOptionId": "4"
+  },
+  {
+    "id": 59,
+    "page": 116,
+    "type": "text",
+    "stem": "Aisha bought a pack of sugar. She used 1/2 of it to make a cake and 1/4 of it to make muffins. If she had 750 g of sugar left, how much sugar did she buy at first?",
+    "options": [
+      {
+        "id": "1",
+        "text": "1 kg"
+      },
+      {
+        "id": "2",
+        "text": "2 kg"
+      },
+      {
+        "id": "3",
+        "text": "3 kg"
+      },
+      {
+        "id": "4",
+        "text": "1.5 kg"
+      }
+    ],
+    "correctOptionId": "3"
+  },
+  {
+    "id": 60,
+    "page": 117,
+    "type": "text",
+    "stem": "Which of the following are factors of 63?",
+    "options": [
+      {
+        "id": "1",
+        "text": "5 and 17"
+      },
+      {
+        "id": "2",
+        "text": "3 and 16"
+      },
+      {
+        "id": "3",
+        "text": "3 and 21"
+      },
+      {
+        "id": "4",
+        "text": "4 and 21"
+      }
+    ],
+    "correctOptionId": "3"
+  }
+]
